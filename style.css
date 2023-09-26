@@ -1,0 +1,65 @@
+:root {
+  --laranja: #ffbb00;
+  --preto: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--laranja);
+  color: var(--preto);
+  padding: 10px 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: var(--preto);
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+#portfólio {
+  background-color: #390099;
+}
+
+
+#press {
+  background-color: #9e0059;
+}
+
+#shop {
+  background-color: #ff0054;
+}
+
+#about {
+  background-color: #390099;
+}
+
+.indicator {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 5px;
+  background: rgba(0, 0, 0, 30%);
+  width: 25%;
+}
